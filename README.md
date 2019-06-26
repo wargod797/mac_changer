@@ -33,6 +33,9 @@ How to Use
 cd /root/Downloads
 
 python mac_changer --interface wlan0/eth0 --mac new_mac_address
+
 python mac_changer -i wlan0/eth0 -m new_mac_address
+
 python mac_changer -i wlan0/eth0 --mac new_mac_address
+
 python mac_changer --interface wlan0/eth0 -m new_mac_address
