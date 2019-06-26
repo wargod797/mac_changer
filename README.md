@@ -25,3 +25,14 @@ How It Works
  * The Subprocess module Contains a number of functions
  * These functions allow us to execute system commands
  * commands depend on Operating System and script
+
+
+commands:
+How to Use
+
+cd /root/Downloads
+
+python mac_changer --interface wlan0/eth0 --mac new_mac_address
+python mac_changer -i wlan0/eth0 -m new_mac_address
+python mac_changer -i wlan0/eth0 --mac new_mac_address
+python mac_changer --interface wlan0/eth0 -m new_mac_address
