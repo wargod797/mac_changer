@@ -37,6 +37,6 @@ parser.add_option("-m","--mac",dest="new_mac", help="New max addresss")
 
 """interface=Options.interface
 
-new_mac = options.new_mac""""
+new_mac = options.new_mac"""
 options = get_arguments()
 change_mac(options.interface, options.new_mac)
