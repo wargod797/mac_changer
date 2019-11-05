@@ -5,7 +5,7 @@ MAC Address give by the Manufacturer, Changing the MAC Address make you Anonymou
  
  1. Increase Anonymity
  2. Impersonate Other Devices
- 3.Bypass Filters
+ 3. Bypass Filters
  
  Manual Commands 
   ifconfig eth0/wlan0 down
@@ -39,3 +39,7 @@ python mac_changer -i wlan0/eth0 -m new_mac_address
 python mac_changer -i wlan0/eth0 --mac new_mac_address
 
 python mac_changer --interface wlan0/eth0 -m new_mac_address
+
+#Update 1.1 
+
+* User Friendly
